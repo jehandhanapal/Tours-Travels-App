@@ -1,0 +1,139 @@
+import React from "react";
+import { styled } from "styled-components";
+import {AiFillCloseCircle} from "react-icons/ai"
+import { NavLink } from "react-router-dom";
+
+export default function Enquiry() {
+  return (
+    <Container className="w-10/12 flex relative mx-auto border-2 my-12">
+        <span className="absolute right-2 top-2 font-semibold text-3xl"><NavLink to="/our_packages"><AiFillCloseCircle/></NavLink></span>
+      <div className=" w-full  flex items-center">
+        <img src="https://images.unsplash.com/photo-1635845604348-893db8ebc170?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="" className="h-full" />
+      </div>
+      <div className="w-full px-4 mx-auto ">
+        <div className="max-w-xl mx-auto">
+          <div className="text-center">
+            <h3 className="text-4xl font-bold text-gray-800 mt-6">Contact us</h3>
+            <p className="mt-1 text-gray-600 ">We'd love to talk about how we can help you.</p>
+          </div>
+        </div>
+
+        <div className="mt-8 max-w-lg mx-auto">
+          <div className="flex flex-col border-none rounded-xl p-4 sm:p-6 lg:p-8 ">
+            <h2 className="mb-6 text-xl font-semibold text-gray-800 ">Enter your details in the form</h2>
+
+            <form>
+              <div className="grid  gap-3 ">
+                <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="hs-firstname-contacts-1" className="block  text-sm text-black font-semibold mb-1">
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      name="hs-firstname-contacts-1"
+                      placeholder="Enter your full name"
+                      id="hs-firstname-contacts-1"
+                      className="py-2 px-3 block w-full border-2 border-gray-200 rounded-md text-xs outline-none "
+                    />
+                  </div>
+
+                  <div>
+                    <label for="hs-lastname-contacts-1" className="block text-sm text-gray-700 font-semibold mb-1 ">
+                      Phone Number
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Enter your Phone number"
+                      name="hs-lastname-contacts-1"
+                      id="hs-lastname-contacts-1"
+                      className="py-2 px-3 block w-full border-gray-200 border-2 rounded-md text-xs outline-none "
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 lg:gap-6">
+                  <div>
+                    <label for="hs-email-contacts-1" className="block text-sm text-gray-700 font-semibold mb-1 ">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="Enter your email "
+                      name="hs-email-contacts-1"
+                      id="hs-email-contacts-1"
+                      autocomplete="email"
+                      className="py-2 px-3 block w-full border-gray-200 border-2 rounded-md text-xs outline-none"
+                    />
+                  </div>
+
+                  <div>
+                    <label for="hs-phone-number-1" className="block text-sm text-gray-700 font-semibold mb-1">
+                      Vacation Type
+                    </label>
+                    <select name="hs-phone-number-1" id="hs-phone-number-1" className="py-2 px-3 block w-full border-gray-200 border-2 rounded-md text-xs outline-none  text-gray-500">
+                      <option disabled value="">
+                        Select your vacation type
+                      </option>
+                      <option value="Family Trip">Family Trip</option>
+                      <option value="Friends Trip">Friends Trip</option>
+                      <option value="Honeymoon Trip">Honeymoon Trip</option>
+                      <option value="Corparate Trip">Corparate Trip</option>
+                      <option value="Educational Tour">Educational Tour</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 lg:gap-6">
+                  <div>
+                    <label for="hs-email-contacts-1" className="block text-sm text-gray-700 font-semibold mb-1 ">
+                      Date Of Travel
+                    </label>
+                    <input
+                      type="date"
+                      placeholder="Enter your email "
+                      name="hs-email-contacts-1"
+                      id="hs-email-contacts-1"
+                      autocomplete="email"
+                      className="py-2 px-3 block w-full border-gray-200 text-gray-400 border-2 rounded-md text-xs outline-none"
+                    />
+                  </div>
+
+                  <div>
+                    <label for="hs-phone-number-1" className="block text-sm text-gray-700 font-semibold mb-1 ">
+                      Travel Destination
+                    </label>
+                    <input type="text" name="hs-phone-number-1" id="hs-phone-number-1" placeholder="Enter your destination" className="py-2 px-3 block w-full border-gray-200 border-2 rounded-md text-xs outline-none" />
+                  </div>
+                </div>
+
+                <div>
+                  <label for="hs-about-contacts-1" className="block text-sm text-gray-700 font-semibold mb-1 ">
+                    Details
+                  </label>
+                  <textarea
+                    id="hs-about-contacts-1"
+                    name="hs-about-contacts-1"
+                    placeholder="Describe your plan"
+                    rows="4"
+                    className="py-2 px-3 block w-full border-2 border-gray-200 rounded-md text-xs  outline-none "
+                  ></textarea>
+                </div>
+              </div>
+
+              <div className="mt-4 flex justify-center ">
+                <button type="submit" className="inline-flex justify-center items-center  text-center bg-blue-500  border-none text-lg  text-white font-medium rounded-md py-2 px-4 ">
+                  Send inquiry
+                </button>
+              </div>
+
+              <div className="mt-3 text-center">
+                <p className="text-sm text-gray-500">We'll get back to you in 1-2 business days.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </Container>
+  );
+}
+const Container = styled.div``;
