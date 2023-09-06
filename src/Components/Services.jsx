@@ -58,7 +58,7 @@ const Container = styled.div`
   /* width: 100vw; */
   /* height: 60vh; */
   padding: 2rem 2rem;
-  background-color: beige;
+  background-color: #fff;
   .card {
     width: 22vw;
     /* height: 45vh; */

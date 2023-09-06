@@ -226,8 +226,8 @@ const Container = styled.div`
   width: 100%;
   .bg {
     background-image: url(https://images.unsplash.com/photo-1589983846997-04788035bc83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
-    height: 80vh;
-    background-position: bottom;
+    height: 40vh;
+    background-position: center;
     background-size: cover;
   }
 `;

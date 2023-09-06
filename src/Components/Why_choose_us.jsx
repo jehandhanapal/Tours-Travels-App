@@ -27,7 +27,7 @@ export default function Why_choose_us() {
           </div>
           <h3>Easy and Fast Bookings</h3>
         </div>
-        <div className="w-5/12">
+        <div className="w-5/12 ">
           <div>
             <img className="mx-auto" width="64" height="64" src="https://img.icons8.com/fluency-systems-regular/48/24-7-open-sign-.png" alt="24-7-open-sign-" />
           </div>
@@ -56,12 +56,14 @@ export default function Why_choose_us() {
   );
 }
 const Container = styled.div`
-  background-color: lightyellow;
+  /* background-color:#EEEEEE; */
   padding: 2rem 0 1rem 0;
+ 
   h3 {
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 700;
     margin: 1.5rem 0;
     text-align: center;
+    color: #2F58CD;
   }
 `;

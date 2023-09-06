@@ -8,7 +8,7 @@ export default function TopNav() {
   return (
     <Container className="flex items-center justify-between">
       <div>
-        <span>Your Trusted Service Provider</span>
+        <span className="font-semibold text-base">Your Trusted Service Provider</span>
       </div>
       <div className="flex items-center">
         <span className="location ">
@@ -16,15 +16,15 @@ export default function TopNav() {
             <span className=" loc ">
               <FaLocationDot />
             </span>
-            <span>Trichy</span>
+            <span className="font-semibold text-base">Trichy</span>
           </a>
         </span>
-        <span className="i fb">
+        <span className="i fb" >
           <a href="https://www.facebook.com/kktravels.kktravels?" target="_blank">
             <FaFacebookF />
           </a>
         </span>
-        <span className="i" >
+        <span className="i"  >
           <a href="https://www.youtube.com/@kktoursandtravels8117" target="_blank">
             <FaYoutube />
           </a>
@@ -40,7 +40,8 @@ export default function TopNav() {
 }
 const Container = styled.div`
   height: 8vh;
-  background-color: transparent;
+  background-color: #000000;
+  color: #2F58CD;
   padding: 0 2.3rem;
   .location {
     padding-right: 0.75rem;

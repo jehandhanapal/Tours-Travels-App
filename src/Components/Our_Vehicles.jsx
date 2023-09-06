@@ -137,9 +137,9 @@ export default function Our_Vehicles() {
 const Container = styled.div`
   width: 100%;
   .bg {
-    background-image: url(https://images.pexels.com/photos/1213293/pexels-photo-1213293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    height: 80vh;
-    background-position: bottom;
+    background-image: url(https://images.unsplash.com/photo-1587580945215-5d4aabb2c8ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1414&q=80);
+    height: 40vh;
+    background-position: center;
     background-size: cover;
   }
 `;
