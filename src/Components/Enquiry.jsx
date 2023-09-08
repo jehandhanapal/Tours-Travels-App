@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 
 export default function Enquiry() {
   return (
-    <Container className="w-10/12 flex relative mx-auto border-2 my-12">
+    <Container className="lg:w-10/12 w-full flex lg:flex-row md:flex-row flex-col relative mx-auto border-2 my-12">
         <span className="absolute right-2 top-2 font-semibold text-3xl"><NavLink to="/our_packages"><AiFillCloseCircle/></NavLink></span>
       <div className=" w-full  flex items-center">
-        <img src="https://images.unsplash.com/photo-1635845604348-893db8ebc170?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="" className="h-full" />
+        <img src="https://images.unsplash.com/photo-1635845604348-893db8ebc170?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="" className="lg:h-full md:h-full h-0" />
       </div>
       <div className="w-full px-4 mx-auto ">
         <div className="max-w-xl mx-auto">

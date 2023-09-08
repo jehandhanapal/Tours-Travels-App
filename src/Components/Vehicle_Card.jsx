@@ -12,7 +12,7 @@ export default function Vehicle_Card(props) {
   
 
   return (
-    <Container className="card relative flex w-[30vw] p-2 border-2 flex-col rounded-lg">
+    <Container className="card relative flex lg:w-[30vw] p-2 border-2 flex-col rounded-lg">
       <div className="img">
         <img src={vehicle.url} alt="etios" />
         <div className="rating inline-flex items-center bg-black text-white py-1 px-3 gap-1 rounded-full font-semibold text-sm right-2  absolute top-2 m-2 ">
@@ -24,23 +24,23 @@ export default function Vehicle_Card(props) {
       </div>
       <div className="details flex flex-col px-4 pt-2 pb-1">
         <div className="brand flex justify-between items-center">
-          <span className="text-3xl font-bold">{vehicle.name}</span>
-          <span className="text-lg font-semibold  border-2 border-blue-500 rounded-full px-5">{vehicle.make}</span>
+          <span className="lg:text-3xl md:text-2xl text-xl font-bold">{vehicle.name}</span>
+          <span className="lg:text-lg text-sm md:text-base font-semibold  border-2 border-blue-500 rounded-full py-2 md:leading-3 leading-3 lg:leading-3 px-5">{vehicle.make}</span>
         </div>
         <div className="spec flex justify-between  py-4 border-b-2">
-          <div className="flex items-center gap-1 font-semibold text-base ">
+          <div className="flex items-center gap-1 font-semibold lg:text-base text-sm  ">
             <span className="text-lg">
               <MdAirlineSeatReclineNormal />
             </span>
             <span>{vehicle.seating} Seater</span>
           </div>
-          <div className="flex items-center gap-1 font-semibold text-base">
+          <div className="flex items-center gap-1 font-semibold lg:text-base text-sm">
             <span className="text-sm">
               <BsFuelPumpFill />
             </span>
             <span>{vehicle.fuel}</span>
           </div>
-          <div className="flex items-center gap-1 font-semibold text-base">
+          <div className="flex items-center gap-1 font-semibold lg:text-base text-sm">
             <span className="text-sm ">
               <GiGearStickPattern />
             </span>
@@ -95,12 +95,12 @@ export default function Vehicle_Card(props) {
         </div>
 
         <div className="price flex mt-4 justify-between items-center">
-          <div className="flex flex-col gap-2 font-semibold text-base text-blue-600">
+          <div className="flex flex-col gap-2 font-semibold lg:text-base text-sm text-blue-600">
             <span>Starts from : &#8377; {vehicle.rentperkm} </span>
             <span>Starts from : &#8377; {vehicle.rentperday} </span>
           </div>
           <div>
-            <button className="px-6 bg-black rounded-full  font-semibold  text-white" >
+            <button className="lg:px-6 md:px-5 px-2 bg-black rounded-full py-2  font-semibold lg:text-base text-sm  text-white" >
               <Link to="/enquiry_2">Rent now</Link>
             </button>
           </div>

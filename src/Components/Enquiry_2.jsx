@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Enquiry_2() {
   return (
-    <Container className="w-1/2 relative flex  mx-auto  my-12 ">
+    <Container className="lg:w-1/2 relative flex  lg:mx-auto md:mx-8 mx-2  my-12 ">
       <span className="absolute right-2 top-2 font-semibold text-3xl">
         <Link to="/our_vehicles">
           <AiFillCloseCircle />
@@ -16,8 +16,8 @@ export default function Enquiry_2() {
       <div className="w-full px-4 mx-auto ">
         <div className="max-w-full mx-auto">
           <div className="text-center">
-            <h3 className="text-4xl font-bold text-black mt-6">Contact us</h3>
-            <p className="mt-1 text-white ">We'd love to talk about how we can help you.</p>
+            <h3 className="text-4xl font-bold text-blue-500 mt-6">Contact us</h3>
+            <p className="mt-4 text-white ">We'd love to talk about how we can help you.</p>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ export default function Enquiry_2() {
             <h2 className="mb-6 text-xl font-semibold text-black ">Enter your details in the form</h2>
 
             <form>
-              <div className="grid grid-cols-2 gap-3 ">
+              <div className="grid lg:grid-cols-2 gap-3 ">
                 <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
                   <div>
                     <label for="hs-firstname-contacts-1" className="block  text-sm text-black font-semibold mb-1">
@@ -74,7 +74,7 @@ export default function Enquiry_2() {
                     <label for="hs-phone-number-1" className="block text-sm text-black font-semibold mb-1">
                       Rental Type
                     </label>
-                    <select name="hs-phone-number-1" id="hs-phone-number-1" className="py-2 px-3 block w-full border-gray-200 border-2 rounded-md text-xs outline-none  text-gray-500">
+                    <select name="hs-phone-number-1" id="hs-phone-number-1" className="py-2 px-3 block w-full border-gray-200 border-2 rounded-md text-xs outline-none bg-white text-gray-500">
                       <option disabled value="Select your Rental type">
                         Select your Rental type
                       </option>
@@ -140,6 +140,6 @@ export default function Enquiry_2() {
   )
 };
 const Container = styled.div`
-  background-color: gray;
+  background-color: lightgrey;
   z-index: 10;
 `;

@@ -6,13 +6,13 @@ export default function Our_Vehicles() {
   return (
     <Container>
       <div className="bg"></div>
-      <div className="my-16">
+      <div className="lg:my-16 my-8">
         <h4 className="text-center  py-2 font-semibold text-sm ">HELPS YOU TO FIND YOUR BEST VEHICLE</h4>
-        <h1 className=" text-center text-6xl font-bold  py-2 my-1">
+        <h1 className=" text-center lg:text-6xl md:text-5xl text-4xl font-bold  py-2 my-1">
           Our Vehicle <span className="text-red-600">Listing</span>
         </h1>
       </div>
-      <div className="cards grid grid-cols-3 px-8 gap-6">
+      <div className="cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-14 px-8 gap-6">
         <Vehicle_Card
           vehicle={{
             name: "Toyoto Etios",

@@ -10,7 +10,7 @@ export default function Package_Card(props) {
 
   return (
     <>
-      <Container className="card flex w-[17vw] p-2 border-2 flex-col rounded-lg">
+      <Container className="card flex md:w-[26vw] lg:w-[17vw] w-full lg:m-0 md:mx-4 my-4 p-2 border-2 flex-col rounded-lg">
         <div className="title flex flex-col ">
           <div className="flex items-center gap-1">
             <span className=" text-xs font-bold  ">
@@ -21,7 +21,7 @@ export default function Package_Card(props) {
           <span className="text-lg font-semibold py-1 text-blue-700 h-8 truncate cursor-default "  title={tour.heading}>{tour.heading}</span>
         </div>
         <div className="img">
-          <img src={tour.url} alt="Image not found" />
+          <img src={tour.url} className="lg:h-[22vh] md:h-[20vh] h-[25vh]" alt="Image not found" />
           <span className="days bg-black inline-flex text-white py-1 px-3 relative -top-3 right-2 float-right rounded-full font-semibold text-sm cursor-default ">{tour.days}</span>
         </div>
         <div className="details flex flex-col px-4  pb-1">
@@ -55,7 +55,7 @@ const Container = styled.div`
   .img {
     img {
       width: 100%;
-      height: 22vh;
+      /* height: 22vh; */
       border-radius: 0.5rem;
       object-fit: cover;
       /* object-position: center; */

@@ -12,12 +12,12 @@ export default function Our_Packages() {
           Our Tour <span className="text-red-600">Packages</span>
         </h2>
       </div>
-      <div className="boxes mx-8">
-        <div className="boxkerala flex flex-col border-b-2  p-8 my-8">
+      <div className="boxes my-8 lg:mx-8">
+        <div className="boxkerala flex flex-col border-b-2  p-8 ">
           <div>
-            <h2 className="text-4xl font-bold text-red-600 mb-8 ">Kerala Tour Packages</h2>
+            <h2 className="lg:text-4xl md:text-3xl text-3xl font-bold text-red-600 mb-2 md:mb-4 lg:mb-8 ">Kerala Tour Packages</h2>
           </div>
-          <div className="cardbox   flex justify-between ">
+          <div className="cardbox   flex lg:justify-between flex-wrap ">
             <Package_Card
               tour={{
                 heading: "Premium Kerala Trip",
@@ -60,11 +60,11 @@ export default function Our_Packages() {
             />
           </div>
         </div>
-        <div className="boxtamilnadu flex flex-col border-b-2 p-8 ">
+        <div className="boxtamilnadu flex flex-col border-b-2 p-8  ">
           <div>
-            <h2 className="text-4xl font-bold text-red-600 mb-8">Tamilnadu Tour Packages</h2>
+            <h2 className="lg:text-4xl md:text-3xl text-2xl font-bold text-red-600 mb-2 md:mb-4 lg:mb-8">Tamilnadu Tour Packages</h2>
           </div>
-          <div className="cardbox   flex justify-between ">
+          <div className="cardbox flex-wrap flex lg:justify-between ">
             <Package_Card
               tour={{
                 heading: "Exoloring Southern Tamilnadu",
@@ -107,11 +107,11 @@ export default function Our_Packages() {
             />
           </div>
         </div>
-        <div className="boxkarnataka flex flex-col border-b-2  p-8 ">
+        <div className="boxkarnataka flex flex-col border-b-2  p-8  ">
           <div>
-            <h2 className="text-4xl font-bold text-red-600 mb-8">Karnataka Tour Packages</h2>
+            <h2 className="lg:text-4xl md:text-3xl text-2xl font-bold text-red-600 mb-2 md:mb-4 lg:mb-8">Karnataka Tour Packages</h2>
           </div>
-          <div className="cardbox   flex justify-between ">
+          <div className="cardbox flex-wrap flex lg:justify-between ">
             <Package_Card
               tour={{
                 heading: "Exolore Karnataka",
@@ -148,9 +148,9 @@ export default function Our_Packages() {
         </div>
         <div className="boxhoneymoon flex flex-col border-b-2  p-8 ">
           <div>
-            <h2 className="text-4xl font-bold text-red-600 mb-8">Honeymoon Packages</h2>
+            <h2 className="lg:text-4xl md:text-3xl text-3xl font-bold text-red-600 mb-2 md:mb-4 lg:mb-8">Honeymoon Packages</h2>
           </div>
-          <div className="cardbox   flex justify-between ">
+          <div className="cardbox flex-wrap  flex lg:justify-between ">
             <Package_Card
               tour={{
                 heading: "Romantic Kerala",
@@ -185,11 +185,11 @@ export default function Our_Packages() {
             />
           </div>
         </div>
-        <div className="boxspecial flex flex-col border-b-2  p-8 ">
+        <div className="boxspecial flex flex-col border-b-2 p-8 ">
           <div>
-            <h2 className="text-4xl font-bold text-red-600 mb-8">Special Tour Packages</h2>
+            <h2 className="lg:text-4xl md:text-3xl text-2xl font-bold text-red-600 mb-2 md:mb-4 lg:mb-8">Special Tour Packages</h2>
           </div>
-          <div className="cardbox   flex justify-between ">
+          <div className="cardbox flex-wrap  flex lg:justify-between ">
             <Package_Card
               tour={{
                 heading: "Devotional Tirupathi",

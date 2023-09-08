@@ -20,13 +20,13 @@ export default function Caroulsel() {
 
   const items = [
     {
-      title: "Budget to Premium Vehicle Rental Services",
+      title: "Budget to Premium Vehicles For Rental Services",
       path: "/our_vehicles",
       content: "We offer vehicle rentals for your local anf outstation trips",
       url: "https://images.unsplash.com/photo-1630356221426-3ec140638b5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     },
     {
-      title: "Lokking for Affordable to Premium Tour Packages",
+      title: "Looking for Affordable to Premium Tour Packages",
       path: "/our_packages",
       content: "We offer customizable tour packages based on your preffernce",
       url: "https://images.unsplash.com/photo-1605531321045-59731b348442?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
@@ -72,7 +72,7 @@ const Container = styled.div`
       background-color: white;
     }
     .active {
-      background-color: #3498db;
+      background-color: blue;
     }
   }
 `;

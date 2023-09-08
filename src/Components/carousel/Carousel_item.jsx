@@ -8,18 +8,18 @@ export default function Carousel_item({ item }) {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    height: "80vh",
+  
   };
 
   return (
     <>
       <Container className="carousel-item min-w-full ">
-        <div className="image" style={styles}></div>
-        <div className="desc absolute top-[20%] w-[60%] text-white ml-8 ">
-          <h1 className="text-6xl font-bold">{item.title}</h1>
-          <p className="my-4 text-lg font-semibold">{item.content}</p>
+        <div className="image lg:h-[80vh] h-[50vh]" style={styles}></div>
+        <div className="desc absolute top-[15%] lg:top-[25%] md:w-[80%]  lg:w-[60%] w-[90%] text-white ml-8 ">
+          <h1 className="lg:text-6xl md:text-4xl text-2xl font-bold">{item.title}</h1>
+          <p className="my-4 lg:text-lg md:text-base text-xs font-medium">{item.content}</p>
           <button className="my-6">
-            <Link className="text-xl  font-semibold px-4 pb-2 pt-1 bg-blue-600 rounded-lg" to={item.path}>
+            <Link className="lg:text-xl md:text-base text-sm  font-semibold px-4 pb-2 pt-2 bg-blue-600 rounded-lg" to={item.path}>
               Read More
             </Link>
           </button>
@@ -29,5 +29,13 @@ export default function Carousel_item({ item }) {
   );
 }
 const Container = styled.div`
-  height: 80vh;
+  button {
+    border: none;
+    :hover {
+      background-color:transparent ;
+      border: 2px solid blue;
+      transition: 0.75s ease ;
+      cursor: pointer;
+      ;    }
+  }
 `;
