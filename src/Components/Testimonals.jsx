@@ -4,7 +4,7 @@ import { BiSolidQuoteAltLeft } from "react-icons/bi";
 
 export default function Testimonals() {
   return (
-    <Container>
+    <Container id="testimonials">
       <div>
         <div>
           <h4 className="text-center text-white py-2 font-semibold text-sm ">WHAT PEOPLE SAY ABOUT US</h4>

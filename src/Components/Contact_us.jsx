@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 
 export default function Contact_us() {
   return (
-    <Container>
+    <Container id="contact">
       <div className="container my-0 mx-auto ">
         <section className="mb-32 text-center">
           <div className="py-12 md:px-12">

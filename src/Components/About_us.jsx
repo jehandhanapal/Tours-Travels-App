@@ -3,7 +3,8 @@ import { styled } from "styled-components";
 
 export default function About_us() {
   return (
-    <Container className="flex md:flex-row lg:flex-row flex-col ">
+    <Container id="about" className="flex md:flex-row lg:flex-row flex-col ">
+      <a  href="https://wa.me/8754810060" target="_blank" className="fixed bottom-10 right-10 shadow-lg shadow-black bg-green-500 cursor-pointer rounded-full"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
       <div className="my-auto lg:w-[50%] md:w-[50%] w-full lg:mr-8 md:mr-8 ">
         <img className="w-full"
           src="https://img.freepik.com/free-photo/smiling-business-lady-working-with-colleagues_1262-2153.jpg?w=740&t=st=1693328497~exp=1693329097~hmac=532ad3bad8a334fbc8a4c0273dceab89efdf1f8e23fee033a5cd19acae5341c2"

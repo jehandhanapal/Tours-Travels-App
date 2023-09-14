@@ -28,13 +28,13 @@ export default function Caroulsel() {
     {
       title: "Looking for Affordable to Premium Tour Packages",
       path: "/our_packages",
-      content: "We offer customizable tour packages based on your preffernce",
+      content: "We offer customizable tour packages based on your preference",
       url: "https://images.unsplash.com/photo-1605531321045-59731b348442?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     },
     {
       title: "Need Premium Rooms For Stay",
       path: "/enquiry",
-      content: "We offer premium accomodation services for your vaccation",
+      content: "We offer premium accomadation services for your vacation",
       url: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     },
   ];
